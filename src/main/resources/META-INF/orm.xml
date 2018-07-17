@@ -4,7 +4,8 @@
                  xsi:schemaLocation="http://java.sun.com/xml/ns/persistence/orm http://www.oracle.com/webfolder/technetwork/jsc/xml/ns/persistence/orm_2_1.xsd">
 
     <named-query name="User.findWithOrmXML">
-        <query>SELECT NEW de.adesso.example.namedquery.dtos.SimpleUserDTO(u.username, u.mail) FROM User u WHERE
+        <query>SELECT NEW de.adesso.example.namedquery.dtos.SimpleUserDTO(u.username, u.mail) FROM
+            de.adesso.example.namedquery.entities.User u WHERE
             u.username = :username</query>
     </named-query>
 

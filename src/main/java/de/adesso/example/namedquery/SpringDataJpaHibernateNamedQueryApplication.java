@@ -20,15 +20,6 @@ public class SpringDataJpaHibernateNamedQueryApplication {
 		SpringApplication.run(SpringDataJpaHibernateNamedQueryApplication.class, args);
 	}
 
-	/*
-	@Bean
-	public LocalEntityManagerFactoryBean localEntityManagerFactory() {
-		LocalEntityManagerFactoryBean localEntityManagerFactoryBean = new LocalEntityManagerFactoryBean();
-		localEntityManagerFactoryBean.setPersistenceUnitName("persistence");
-		return localEntityManagerFactoryBean;
-	}
-	*/
-
 	@Bean
 	public CommandLineRunner run(UserService userService) {
 		return (args -> {
