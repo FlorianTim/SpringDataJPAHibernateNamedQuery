@@ -1,8 +1,8 @@
-package de.adesso.example.SpringDataJPAHibernateNamedQuery.services;
+package de.adesso.example.namedquery.services;
 
-import de.adesso.example.SpringDataJPAHibernateNamedQuery.dtos.SimpleUserDTO;
-import de.adesso.example.SpringDataJPAHibernateNamedQuery.entities.User;
-import de.adesso.example.SpringDataJPAHibernateNamedQuery.repositories.UserRepository;
+import de.adesso.example.namedquery.dtos.SimpleUserDTO;
+import de.adesso.example.namedquery.entities.User;
+import de.adesso.example.namedquery.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

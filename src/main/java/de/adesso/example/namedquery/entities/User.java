@@ -1,4 +1,4 @@
-package de.adesso.example.SpringDataJPAHibernateNamedQuery.entities;
+package de.adesso.example.namedquery.entities;
 
 import javax.persistence.*;
 

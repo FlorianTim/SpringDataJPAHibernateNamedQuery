@@ -1,15 +1,14 @@
-package de.adesso.example.SpringDataJPAHibernateNamedQuery;
+package de.adesso.example.namedquery;
 
-import de.adesso.example.SpringDataJPAHibernateNamedQuery.dtos.SimpleUserDTO;
-import de.adesso.example.SpringDataJPAHibernateNamedQuery.entities.User;
-import de.adesso.example.SpringDataJPAHibernateNamedQuery.services.UserService;
+import de.adesso.example.namedquery.dtos.SimpleUserDTO;
+import de.adesso.example.namedquery.entities.User;
+import de.adesso.example.namedquery.services.UserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
 
 
 @SpringBootApplication

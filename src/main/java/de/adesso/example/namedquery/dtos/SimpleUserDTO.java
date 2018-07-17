@@ -1,4 +1,4 @@
-package de.adesso.example.SpringDataJPAHibernateNamedQuery.dtos;
+package de.adesso.example.namedquery.dtos;
 
 public class SimpleUserDTO {
 
