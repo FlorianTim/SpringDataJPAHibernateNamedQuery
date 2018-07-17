@@ -1,4 +1,4 @@
-package de.adesso.example.SpringDataJPAHibernateNamedQuery;
+package de.adesso.example.namedquery;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
