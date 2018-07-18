@@ -13,6 +13,6 @@ import org.springframework.test.context.transaction.TransactionalTestExecutionLi
 @ContextConfiguration(classes = HSQLRepositoryTestConfiguration.class)
 @TestExecutionListeners({DependencyInjectionTestExecutionListener.class, DirtiesContextTestExecutionListener.class, TransactionalTestExecutionListener.class,
         DbUnitTestExecutionListener.class})
-public class HSQLAbstractRepositoryTest {
+public abstract class HSQLAbstractRepositoryTest {
 
 }

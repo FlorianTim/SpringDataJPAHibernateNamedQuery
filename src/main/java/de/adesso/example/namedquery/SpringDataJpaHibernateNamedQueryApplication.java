@@ -10,7 +10,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-
+/**
+ * This application is designed to track a bug in spring-data-jpa 2.0.x.RELEASE > 2.0.3.RELEASE
+ * Use UserRepositoryTest to cause {@link org.hibernate.QueryException}
+ */
 @SpringBootApplication
 public class SpringDataJpaHibernateNamedQueryApplication {
 

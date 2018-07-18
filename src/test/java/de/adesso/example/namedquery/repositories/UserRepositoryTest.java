@@ -28,6 +28,10 @@ public class UserRepositoryTest extends HSQLAbstractRepositoryTest {
         Assert.assertEquals(users.get(0).getMail(), "Jan.Jedermann@testmail.com");
     }
 
+    /**
+     * This fails with "org.hibernate.QueryException: ResultTransformer is not allowed for 'select new' queries"
+     * for spring-data-jpa 2.0.x.RELEASE > 2.0.3.RELEASE
+     */
     @Test
     public void findWithOrmXML() {
         List<SimpleUserDTO> users = userRepository.findWithOrmXML("JanJedermann");
